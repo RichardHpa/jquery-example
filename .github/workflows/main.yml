@@ -1,4 +1,4 @@
-name: Deploy to Staging
+name: 🛠 Deploy to Staging
 on:
   push:
     branches:
@@ -11,7 +11,7 @@ jobs:
 
       # ( Build to ./dist or other directory... )
 
-      - name: 🛠 Deploy to Netlify
+      - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2.3
         with:
           publish-dir: './'
